@@ -27,14 +27,14 @@ body, div, p {
     font-family: "Muller";
     font-display: swap; 
     src: 
-         url("./fonts/MullerBold.woff") format ("woff"),
-         url("./fonts/MullerBold.woff2") format ("woff2");
+         url("/fonts/MullerBold.woff") format ("woff"),
+         url("/fonts/MullerBold.woff2") format ("woff2");
     font-weight: 700;
     font-style: normal;
   }
 
 .first_screen {
-    background-image: url(/image/background.jpg);
+    background-image: url(/img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
