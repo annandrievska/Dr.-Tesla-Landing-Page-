@@ -299,7 +299,7 @@ body, div, p {
     grid-template-rows: repeat(2, 160px);
     gap: 20px;
     padding: 40px;
-    background-color: rgb(160, 182, 243);
+    background-color: rgb(198, 210, 244);
     border-radius: 8px;
     width: 1000px;
     justify-content: center;
