@@ -917,6 +917,12 @@ body, div, p {
     gap: 5px;
     transform: translate(340px, -314px);
 }
+@media (max-width: 1400px) {
+    .service_description1 {
+
+        transform: translate(192px, -309px);
+    }
+}
 @media (max-width: 992px) {
     .service_description1 {
 
@@ -931,6 +937,12 @@ body, div, p {
     gap: 5px;
     transform: translate(-44px, -184px);
 }
+@media (max-width: 1400px) {
+    .service_description2 {
+
+        transform: translate(-178px, -179px);
+    }
+}
 @media (max-width: 992px) {
     .service_description2 {
 
@@ -943,6 +955,18 @@ body, div, p {
     align-items: flex-end;
     gap: 5px;
     transform: translate(-330px, -53px);
+}
+@media (max-width: 1400px) {
+    .service_description2 {
+
+        transform: translate(-178px, -179px);
+    }
+}
+@media (max-width: 1400px) {
+    .service_description3 {
+
+        transform: translate(-492px, -53px);
+    }
 }
 @media (max-width: 992px) {
     .service_description3 {
@@ -957,6 +981,12 @@ body, div, p {
     gap: 5px;
     transform: translate(0px, -312px);
 }
+@media (max-width: 1400px) {
+    .service_description4 {
+
+        transform: translate(-156px, -309px);
+    }
+}
 @media (max-width: 992px) {
     .service_description4 {
 
@@ -970,6 +1000,12 @@ body, div, p {
     gap: 5px;
     transform: translate(-260px, -185px);
 }
+@media (max-width: 1400px) {
+    .service_description5 {
+
+        transform: translate(900px, -295px);
+    }
+}
 @media (max-width: 992px) {
     .service_description5 {
 
@@ -982,6 +1018,12 @@ body, div, p {
     align-items: flex-start;
     gap: 5px;
     transform: translate(1030px, -168px);
+}
+@media (max-width: 1400px) {
+    .service_description6 {
+
+        transform: translate(575px, -168px);
+    }
 }
 @media (max-width: 992px) {
     .service_description6 {
