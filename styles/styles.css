@@ -883,7 +883,6 @@ body, div, p {
     display: grid;
     justify-content: center;
     position: relative;
-
 }
 .big__tooth {
     top: 50%;
@@ -937,12 +936,7 @@ body, div, p {
     gap: 5px;
     transform: translate(-44px, -184px);
 }
-@media (max-width: 1400px) {
-    .service_description2 {
 
-        transform: translate(-178px, -179px);
-    }
-}
 @media (max-width: 992px) {
     .service_description2 {
 
