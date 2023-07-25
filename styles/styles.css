@@ -857,8 +857,9 @@ body, div, p {
     border-radius: 12px;
     background: #A1C7D4;
     width: 380px;
-    height: 1150px;
+    height: 1117px;
     flex-shrink: 0;
+    
 }
 }
 
