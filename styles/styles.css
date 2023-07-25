@@ -946,9 +946,8 @@ body, div, p {
     .services {
         padding-top: 720px;
         width: 380px;
-        height: 550px;
+        height: 1385px;
         margin: 0 auto;
-        padding-bottom: 500px;
     } 
 }
 .heading3 {
@@ -1279,7 +1278,9 @@ body, div, p {
 @media (max-width: 480px) {
     .warning {
         width: 380px;
-        padding-top: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
     }
 }
 .img-warning {
@@ -1297,7 +1298,14 @@ body, div, p {
     line-height: 140%; /* 28px */
     align-items: center;
 }
-
+@media (max-width: 480px) {
+    .warning-text {
+        height: 50px;
+        width: 380px;
+        align-items: center;
+        text-align: center;
+    }
+}
 
 .third__screen{
     width: 845px;
