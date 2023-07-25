@@ -36,7 +36,7 @@ body, div, p {
   }
 
 .first_screen {
-    background-image: url(/img/бекгргд.png);
+    background-image: url(/img/bckgrd.png);
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -44,9 +44,19 @@ body, div, p {
     width: 100vw;
     height: 623px;
 }
+@media (max-width: 992px) {
+    .first_screen {
+        background-image: url(/img/bckgrd.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 992px;
+        padding: 0;
+        /* margin-bottom: 500px; */
+    }
+}
 @media (max-width: 480px) {
     .first_screen {
-        background-image: url(/img/бекгргд.png);
+        background-image: url(/img/bckgrd.png);
         background-size: cover;
         background-repeat: no-repeat;
         width: 480px;
@@ -708,6 +718,15 @@ body, div, p {
         position: absolute;
         right: -115px;
         top: 205px;
+    }
+}
+@media (max-width: 992px) {
+    .img-lady {
+        height: 511px;
+        position: absolute;
+        right: -115px;
+        top: 54px;
+
     }
 }
 .main-second {
