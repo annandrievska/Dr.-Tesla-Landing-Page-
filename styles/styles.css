@@ -149,15 +149,23 @@ body, div, p {
     align-items: center;
   }
 
-.header__nav 
+.header__nav {
+    color: black;
+    text-decoration: none;
+}
+
 .nav__link {
     color: black;
     text-decoration: none;
 } 
 
+.nav__link:hover {
+    color: #46B1DE;
+}
 .link2 {
     color: black;
-    text-decoration: none;  
+    text-decoration: none; 
+    position: relative; 
 }
 .header__lang {
     width: 77px;
@@ -183,6 +191,12 @@ body, div, p {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    position: relative;
+}
+.header__langUA::after {
+    position: absolute;
+    content: "|";
+    left: 27px;
 }
 .header__langEN {
     color: #000;
@@ -306,8 +320,18 @@ body, div, p {
     .header__number {
         display: none;
 }
-}  
+} 
 
+.link2::before {
+    content: "";
+    position: absolute;
+    background-image: url(/img/phone.svg);
+    width: 24px;
+    height: 24px;
+    top: 1px;
+    background-repeat: no-repeat;
+    left: -23px;
+}
 
 .main__text__layout {
     display: flex;
@@ -699,8 +723,14 @@ body, div, p {
 
 .main__lady {
     position: absolute;
-    top: 52px;
+    top: 134px;
     right: 90px;
+    width: 555px;
+    height: 550px;
+}
+.img-lady {
+    width: 555px;
+    height: 550px;
 }
 @media (max-width: 992px) {
     .main__lady {
@@ -1442,7 +1472,7 @@ body, div, p {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 @media (max-width: 480px) {
     .input-form  {
@@ -1454,9 +1484,28 @@ body, div, p {
         margin: 0 auto;
 }
 }  
-  .input-wrapper {
+.input-wrapper {
     position: relative;
     margin-right: 50px;
+}
+.input-wrapper input {
+    height: 57px;
+    background-color: #D9D9D9B5;
+    border-radius: 8px;
+    border: none;
+    color: rgba(27, 29, 31, 0.51);
+    text-align: center;
+    font-family: 'Roboto' sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 26.6px */
+  }
+.input-wrapper input:hover {
+    border: 2px solid #46B1DE;
+}
+.input-wrapper input:focus {
+    border: 2px solid #46B1DE;
 }
 @media (max-width: 480px) {
     .input-wrapper  {
@@ -1472,21 +1521,7 @@ body, div, p {
 } 
 }  */
 
-  .input-wrapper input {
-    /* width: 233px; */
-    height: 57px;
-    background-color: #D9D9D9B5;
-    border-radius: 8px;
-    border: none;
-    /* padding-left: 69px; */
-    color: rgba(27, 29, 31, 0.51);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%; /* 26.6px */
-  }
+
 
   
   .icon-name {
