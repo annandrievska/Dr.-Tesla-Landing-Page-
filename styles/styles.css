@@ -1658,6 +1658,53 @@ width: 225px;
 
 .about-nav {
     padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+}
+.about-nav-lang {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 85px;
+}
+.about-nav:hover {
+    color: white;
+}
+.en__lang:hover {
+    color: white;
+}
+.ua__lang:hover {
+    color: white;
+}
+.en__lang {
+    position: relative;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    line-height: normal;
+}
+.ua__lang {
+    position: relative;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.en__lang::before {
+    content: "";
+    width: 2px;
+    height: 20px;
+    background-color: #000000;
+    position: absolute;
+    top: 1px;
+    left: -15px;
+    background-repeat: no-repeat;
 }
 .about-logo{
     padding-right: 10px;
@@ -1742,11 +1789,96 @@ width: 225px;
     text-decoration: none;
     color: white;
 }
-
-.ph, .inst, .email{
-    padding-left: 10px;
+.ph::after {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    width: 0;
+    height: 1px;
+    top: 30px;
+    left: 33px;
+    background-repeat: no-repeat;
 }
-
+.ph:hover::after {
+    width: 144px; 
+}
+.ph, .inst, .email{
+    padding-left: 32px;
+    position: relative;
+    font-size: 20px;
+}
+.ph::before {
+    content: "";
+    /* padding-left: 40px; */
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(/img/phone.png);
+    width: 32px;
+    height: 32px;
+    top: -4px;
+    left: -3px;
+}
+.inst::after {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    width: 0;
+    height: 1px;
+    top: 30px;
+    left: 33px;
+    background-repeat: no-repeat;
+}
+.inst:hover::after {
+    width: 144px; 
+}
+.inst::before {
+    /* padding-left: 40px; */
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(/img/instagram.png);
+    width: 32px;
+    height: 32px;
+    top: -4px;
+    left: -3px;
+}
+.inst::after {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    width: 0;
+    height: 1px;
+    top: 30px;
+    left: 33px;
+    background-repeat: no-repeat;
+}
+.inst:hover::after {
+    width: 70px; 
+}
+.email::after {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    width: 0;
+    height: 1px;
+    top: 30px;
+    left: 33px;
+    background-repeat: no-repeat;
+}
+.email:hover::after {
+    width: 160px; 
+}
+.email::before {
+    /* padding-left: 40px; */
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(/img/email.png);
+    width: 32px;
+    height: 32px;
+    top: -4px;
+    left: -3px;
+}
 .footer__messengers{
     display: flex;
     align-items: center;
