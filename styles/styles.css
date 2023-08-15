@@ -1329,7 +1329,7 @@ body, div, p {
     animation-name: service-1;
     animation-duration: 0.7s;
     animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
+    animation-fill-mode: none;
     animation-delay: 3s;
     animation-iteration-count: 1;
     transition-timing-function: ease-in;
@@ -1463,7 +1463,7 @@ body, div, p {
     animation-name: service-4;
     animation-duration: 0.7s;
     animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
+    animation-fill-mode: none;
     animation-delay: 3s;
     animation-iteration-count: 1;
     transition-timing-function: ease-in;
